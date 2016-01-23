@@ -14,6 +14,10 @@
 		41791FD91C521E5500220267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41791FD71C521E5500220267 /* LaunchScreen.storyboard */; };
 		41791FE41C521E5600220267 /* Storyboard01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41791FE31C521E5600220267 /* Storyboard01Tests.swift */; };
 		41791FEF1C521E5600220267 /* Storyboard01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41791FEE1C521E5600220267 /* Storyboard01UITests.swift */; };
+		41791FFE1C522BD400220267 /* modoshow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41791FFC1C522BD400220267 /* modoshow.storyboard */; };
+		417920011C522D3300220267 /* showdetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41791FFF1C522D3300220267 /* showdetail.storyboard */; };
+		417920041C522E1600220267 /* modally.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417920021C522E1600220267 /* modally.storyboard */; };
+		417920071C522EAE00220267 /* popover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417920051C522EAE00220267 /* popover.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		41791FEA1C521E5600220267 /* Storyboard01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Storyboard01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41791FEE1C521E5600220267 /* Storyboard01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard01UITests.swift; sourceTree = "<group>"; };
 		41791FF01C521E5600220267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41791FFD1C522BD400220267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/modoshow.storyboard; sourceTree = "<group>"; };
+		417920001C522D3300220267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/showdetail.storyboard; sourceTree = "<group>"; };
+		417920031C522E1600220267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/modally.storyboard; sourceTree = "<group>"; };
+		417920061C522EAE00220267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/popover.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				41791FCE1C521E5500220267 /* AppDelegate.swift */,
 				41791FD01C521E5500220267 /* ViewController.swift */,
 				41791FD21C521E5500220267 /* Main.storyboard */,
+				417920051C522EAE00220267 /* popover.storyboard */,
+				417920021C522E1600220267 /* modally.storyboard */,
+				41791FFF1C522D3300220267 /* showdetail.storyboard */,
+				41791FFC1C522BD400220267 /* modoshow.storyboard */,
 				41791FD51C521E5500220267 /* Assets.xcassets */,
 				41791FD71C521E5500220267 /* LaunchScreen.storyboard */,
 				41791FDA1C521E5500220267 /* Info.plist */,
@@ -193,7 +205,6 @@
 				TargetAttributes = {
 					41791FCA1C521E5500220267 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = L4H7QZ3V46;
 					};
 					41791FDE1C521E5500220267 = {
 						CreatedOnToolsVersion = 7.2;
@@ -232,9 +243,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417920011C522D3300220267 /* showdetail.storyboard in Resources */,
 				41791FD91C521E5500220267 /* LaunchScreen.storyboard in Resources */,
 				41791FD61C521E5500220267 /* Assets.xcassets in Resources */,
+				41791FFE1C522BD400220267 /* modoshow.storyboard in Resources */,
 				41791FD41C521E5500220267 /* Main.storyboard in Resources */,
+				417920071C522EAE00220267 /* popover.storyboard in Resources */,
+				417920041C522E1600220267 /* modally.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +325,38 @@
 				41791FD81C521E5500220267 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		41791FFC1C522BD400220267 /* modoshow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41791FFD1C522BD400220267 /* Base */,
+			);
+			name = modoshow.storyboard;
+			sourceTree = "<group>";
+		};
+		41791FFF1C522D3300220267 /* showdetail.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417920001C522D3300220267 /* Base */,
+			);
+			name = showdetail.storyboard;
+			sourceTree = "<group>";
+		};
+		417920021C522E1600220267 /* modally.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417920031C522E1600220267 /* Base */,
+			);
+			name = modally.storyboard;
+			sourceTree = "<group>";
+		};
+		417920051C522EAE00220267 /* popover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417920061C522EAE00220267 /* Base */,
+			);
+			name = popover.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -400,7 +447,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Storyboard01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efc.Storyboard01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,7 +460,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Storyboard01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efc.Storyboard01;
 				PRODUCT_NAME = "$(TARGET_NAME)";

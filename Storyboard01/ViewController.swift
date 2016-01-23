@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // pasar datos entre pantallas
+        print(segue.sourceViewController)
+        print(segue.destinationViewController)
+        print(segue.identifier) // retorna nill
+        print("es posible pasar datos de una pantalla a otra")
+    }
 
 }
 
