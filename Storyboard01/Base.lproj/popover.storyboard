@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="SBe-wV-c6A">
             <objects>
-                <viewController id="DXm-k3-5Qn" sceneMemberID="viewController">
+                <viewController id="DXm-k3-5Qn" customClass="ViewController" customModule="Storyboard01" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4Z2-K4-Zgi"/>
                         <viewControllerLayoutGuide type="bottom" id="72h-Lo-9Ui"/>
@@ -23,6 +23,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Oy-QS-YQc">
+                                <rect key="frame" x="20" y="78" width="119" height="30"/>
+                                <state key="normal" title="Cerrar"/>
+                                <connections>
+                                    <action selector="back:" destination="DXm-k3-5Qn" eventType="touchUpInside" id="ToA-Gd-8dO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -31,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R9o-6p-5UY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1718" y="968"/>
+            <point key="canvasLocation" x="1280" y="839"/>
         </scene>
     </scenes>
 </document>

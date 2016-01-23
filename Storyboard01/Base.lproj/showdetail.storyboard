@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="uQF-c2-q64">
             <objects>
-                <viewController id="Mfi-wu-eig" sceneMemberID="viewController">
+                <viewController id="Mfi-wu-eig" customClass="ViewController" customModule="Storyboard01" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EVR-QQ-kpj"/>
                         <viewControllerLayoutGuide type="bottom" id="S8z-Ka-jPN"/>
@@ -23,6 +23,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgz-AW-WtW">
+                                <rect key="frame" x="46" y="70" width="46" height="30"/>
+                                <state key="normal" title="Cerrar"/>
+                                <connections>
+                                    <action selector="back:" destination="Mfi-wu-eig" eventType="touchUpInside" id="peb-bM-olm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
