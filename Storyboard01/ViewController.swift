@@ -19,7 +19,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+ 
+    // Segue show
+    // Segue show detail
+    // Segue Present Modally
+    // Segue Present on Popover
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // pasar datos entre pantallas
         print(segue.sourceViewController)
